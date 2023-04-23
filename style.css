@@ -1,0 +1,84 @@
+
+html{
+    background: rgb(9, 2, 115);
+    color: white;
+    font-style: normal;
+    font-size: large;
+    margin: auto;
+    background-repeat: no-repeat ;
+    background-position: center ;
+    background-attachment: fixed;
+     
+}
+body{
+    /*background-color: rgb(1, 1, 54);
+    color: white;*/
+    text-align: left;
+}
+h1{
+    text-align: center;
+}
+#nb{
+    
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: grey;
+}
+
+
+.list{
+    
+     float: left;
+     display: block;
+     color: white;
+     padding: 10px 55px;
+     text-decoration:none;
+     text-align: center;
+     border-right: 1px solid black;
+     min-width: 70px;
+      
+}
+.list:hover{
+     background-color: black;
+     text-decoration: none;
+}
+#animations{
+    width: 500px;
+    margin: 0px;
+    background-color: rgb(247, 9, 9);
+    text-align: center;
+    font-size: 100px;
+     
+    animation: myColor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+    animation: myRotate;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes myColor {
+   0%{background-color: red;}
+   20%{background-color: blue;}
+   40%{background-color:yellow;}
+   60%{background-color:green;}
+    
+}
+@keyframes myRotate {
+    100%{transform: rotateZ(360000deg);}
+}
+@keyframes myTrans {
+    20%{transform: translate(100px,0px);}
+    40%{transform: translate(0px,50px);}
+    80%{transform: translate(-100px,0px);}
+}
+@keyframes myScale {
+    50%{transform: scale(2,2);}
+    
+}
+@keyframes myOpacity {
+    50%{opacity: 0;}
+    
+}

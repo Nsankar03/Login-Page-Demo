@@ -1,0 +1,83 @@
+
+html{
+    background-image:url("universe.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 5px;
+}
+body{
+    color: azure;
+    align-items: center;
+}
+h1{ 
+    text-shadow: 0px 2px 3px blue;
+}
+#p1{
+    color: rgb(255, 255, 255);
+    border: 2px solid;
+    border-radius: 15px;
+    border-color: white;
+    opacity: 75%;
+    width: 95%;
+    padding: 20px;
+    margin: 1px;
+}
+#p2{
+    text-align: center;
+}
+a:link{
+    color: rgb(0, 0, 0);
+}
+a:visited{
+    color: rgb(0, 0, 0);
+}
+button:hover{
+    background-color: rgb(99, 102, 102);
+    color: rgb(255, 255, 255);
+}
+button:active{
+    background-color: blue;
+    color: rgb(255, 255, 255);
+}
+#setup{
+    margin: auto;
+    width: 25vw;
+    height: 25vh;
+    border: 3px solid;
+    padding: 2%;
+    text-align: center;
+    border-radius: 18px;
+    border-color:rgb(220, 220, 220);
+    background-color: rgb(3, 4, 33);
+    opacity: 75%;
+
+}
+#log{
+    margin:auto;
+    width: 25vw;
+    height: 25vh;
+    border: 3px solid;
+    padding: 2%;
+    text-align: center;
+    border-radius: 18px;
+    border-color:rgb(220, 220, 220);
+    background-color: rgb(3, 4, 33);
+    opacity: 75%;
+    background-attachment: fixed;
+    
+}
+#sign{
+    margin:auto;
+    width: 500px;
+    height: vh;
+    border: 3px solid;
+    padding: 2%;
+    text-align: center;
+    border-radius: 18px;
+    border-color:rgb(220, 220, 220);
+    background-color: rgb(3, 4, 33);
+    opacity: 75%;
+    background-attachment: fixed;
+}
